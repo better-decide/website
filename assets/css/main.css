@@ -3316,8 +3316,12 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
+		#intro h1, #intro h2, #intro h4, #intro h5, #intro h6 {
 			color: #ffffff;
+		}
+
+		#intro h3 {
+			color: grey;
 		}
 
 		#intro blockquote {
@@ -3372,6 +3376,11 @@ input, select, textarea {
 
 		#intro h1 {
 			font-size: 5rem;
+			line-height: 1;
+		}
+
+		#intro h3 {
+			font-size: 1.5rem;
 			line-height: 1;
 		}
 
@@ -3460,6 +3469,11 @@ input, select, textarea {
 
 				#intro h1 {
 					font-size: 3.25rem;
+					line-height: 1.1;
+					margin-bottom: 1rem;
+				}
+				#intro h3 {
+					font-size: 1rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
 				}
@@ -4432,10 +4446,8 @@ input, select, textarea {
 		}
 
 			#copyright ul li {
-				border-left: solid 2px;
-				display: inline-block;
 				line-height: 1;
-				margin-left: 1rem;
+				margin: 1rem 0 0 0;
 				padding-left: 1rem;
 			}
 
