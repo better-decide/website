@@ -19,45 +19,32 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
 		<link rel="manifest" href="images/favicons/site.webmanifest">
 
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11492586347">
-		</script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'AW-11492586347');
-		</script>
+		<style>
+			#subtext {
+				max-width: fit-content;
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			}
 
-		<!-- Event snippet for Book appointment conversion page -->
-		<script>
-		  gtag('event', 'conversion', {
-		      'send_to': 'AW-11492586347/ZxAzCPX6w_YZEOvmi-gq',
-		      'value': 1.0,
-		      'currency': 'INR'
-		  });
-		</script>
+			#intro h1 {
+				margin-bottom: 10px;
+			}
 
+			#intro h3 {
+				margin: 21px 0;
+			}
 
-		<!-- Event snippet for Book appointment conversion page
-		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-		<script>
-		function gtag_report_conversion(url) {
-		  var callback = function () {
-		    if (typeof(url) != 'undefined') {
-		      window.location = url;
-		    }
-		  };
-		  gtag('event', 'conversion', {
-		      'send_to': 'AW-11492586347/ZxAzCPX6w_YZEOvmi-gq',
-		      'value': 1.0,
-		      'currency': 'INR',
-		      'event_callback': callback
-		  });
-		  return false;
-		}
-		</script>
+			a #cta {
+				display: inline-block;
+				margin-top: 20px;
+				padding: 12px 24px;
+				font-size: 18px;
+				box-shadow: none;
+				margin-top: -20px;
+			}
+		</style>
 
 	</head>
 	<body class="is-preload" style="background: radial-gradient(circle, #1b1923, #000000);">
@@ -66,15 +53,15 @@
 				<!-- Intro -->
 				<div id="intro">
 					<span class="image"><img src="images/logo-nobg.png" alt="" style="max-width: 30%; margin: auto;" /></span>
-					<h1>Better<br/>Decide</h1>
+					<h1>Better Decide</h1>
+					<h6>Strategic Decision Advisor</h6>
 
-					<div style="margin: 1rem 0;">
-						<h3>Make Better, Informed Decisions</h3>
-						<h3>Navigate complex circumstances</h3>
-						<h3>Custom strategies that help you</h3>
+					<div style="margin: 1.5rem 0; text-align: center;">
+						<h3>Personalised Solutions for Complex Challenges</h3>
+						<h3>Strategic Guidance Tailored to Your Needs</h3>
+						<h3>Become Self-reliant</h3>
 					</div>
-
-					<a href="https://wa.me/917676621928?text=Hey%21%20I%20came%20across%20Better%20Decide%20and%20would%20love%20to%20discuss%20how%20you%20can%20help%20me." class="button large" style="box-shadow: none;">
+					<a class="button" id="cta" href="https://wa.me/917676621928?text=Hey%21%20I%20came%20across%20Better%20Decide%20and%20would%20love%20to%20discuss%20how%20you%20can%20help%20me.">
 						GET IN TOUCH 🚀
 					</a>
 				</div>
@@ -89,14 +76,14 @@
 			</div>
 
 		<!-- Scripts -->
-		 	<script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

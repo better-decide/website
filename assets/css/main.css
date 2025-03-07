@@ -151,7 +151,7 @@ input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.5;
 	}
 
 	a {
@@ -3386,7 +3386,6 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25rem;
-			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
 		}

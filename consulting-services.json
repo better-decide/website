@@ -1,0 +1,28 @@
+[
+    {
+        "section": "individuals",
+        "items": [
+            { "title": "Gain Mental Clarity", "subtext": "Cut through confusion and focus on what matters." },
+            { "title": "Strengthen Decision-Making", "subtext": "Make better choices with confidence." },
+            { "title": "Develop Stronger Relationships", "subtext": "Nurture meaningful adult connections." },
+            { "title": "Break Through Mental Barriers", "subtext": "Overcome self-doubt and limiting beliefs." },
+            { "title": "Enhance Leadership Skills", "subtext": "Become a more effective leader." },
+            { "title": "Navigate Life’s Complexities", "subtext": "Handle challenging circumstances with resilience." },
+            { "title": "Set Healthy Boundaries", "subtext": "Learn to say no without guilt." },
+            { "title": "Find Your Tribe", "subtext": "Build a supportive network that aligns with your values." },
+            { "title": "Optimize Productivity", "subtext": "Achieve more with fewer resources." },
+            { "title": "Learn & Adapt Faster", "subtext": "Master complex topics and upskill efficiently." }
+        ]
+    },
+    {
+        "section": "businesses",
+        "items": [
+            { "title": "Develop Effective Business Strategies", "subtext": "Align decisions with long-term success." },
+            { "title": "Fix Repeat Issues", "subtext": "Identify and resolve recurring problems to prevent disruption." },
+            { "title": "Build a High-Performance Workplace", "subtext": "Improve team collaboration and efficiency." },
+            { "title": "Identify & Fix Hidden Inefficiencies", "subtext": "Uncover and resolve bottlenecks." },
+            { "title": "Create a LEAN, Agile Team", "subtext": "Optimize resources without compromising quality." },
+            { "title": "Evolve Sustainable Systems", "subtext": "Future-proof your business operations." }
+        ]
+    }
+]
