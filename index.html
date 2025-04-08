@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- SEO -->
-		<meta name="description" content="Consult online for better decision-making in work and life.">
+		<meta name="description" content="Consult online for better decision-making in early stage startups.">
 		<meta name="keywords" content="strategic advice, consulting services, personal development, solve recurring problems, business strategy, startup guidance">
 
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -33,7 +33,7 @@
 			}
 
 			#intro h3 {
-				margin: 21px 0;
+				margin: 15px 0;
 			}
 
 			a #cta {
@@ -46,8 +46,49 @@
 			}
 		</style>
 
-	<!-- Meta Pixel Code -->
+	<!-- Global site tag (gtag.js) - Google Ads -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11492586347"></script>
 		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-11492586347'); // Your Google Ads account ID
+		</script>
+
+	<!-- Event snippet for Book appointment conversion page -->
+		<script>
+			gtag('event', 'conversion', {
+				'send_to': 'AW-11492586347/ZxAzCPX6w_YZEOvmi-gq',
+				'value': 1.0,
+				'currency': 'INR'
+			});
+		</script>
+
+	<!-- Event snippet for Book appointment conversion page
+	In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+			function gtag_report_conversion(url) {
+				console.log('inside report conversion');
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+				window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-11492586347/ZxAzCPX6w_YZEOvmi-gq',
+				'value': 1.0,
+				'currency': 'INR',
+				'event_callback': callback
+			});
+			return false;
+			}
+		</script>
+	
+  
+
+	<!-- Meta Pixel Code -->
+		<!-- <script>
 			!function(f,b,e,v,n,t,s)
 			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -64,7 +105,7 @@
 		document.getElementById('cta').addEventListener('click', function() {
 			fbq('track', 'Lead');
 		});
-		</script>
+		</script> -->
 	<!-- End Meta Pixel Code -->
 	</head>
 	<body class="is-preload" style="background: radial-gradient(circle, #1b1923, #000000);">
@@ -74,16 +115,15 @@
 				<div id="intro">
 					<span class="image"><img src="images/logo-nobg.png" alt="" style="max-width: 30%; margin: auto;" /></span>
 					<h1>Better Decide</h1>
-					<h6>Helping Entrepreneurs & Businesses Make Smarter Decisions</h6>
+					<h6>For Early-Stage Founders Who Hate Guesswork</h6>
 
 					<div style="margin: 1.5rem 0; text-align: center;">
-						<h3>Avoid Costly Mistakes</h3>
-						<h3>Lead with Clarity & Confidence</h3>
-						<h3>Sustain Long-Term Success</h3>
+						<h3>🚀 Build → Scale Faster</h3>
+						<h3>🛡️ Avoid → Costly Founder Mistakes</h3>
+						<h3>🎯 Lead → With Data, Not Drama</h3>
 					</div>
-					<a class="button" id="cta" href="https://wa.me/917676621928?text=Hey, I’m [Your Name], and I run/work at [Company Name] as a [Your Role]. Right now, I’m struggling with [Your Challenge]. Could we connect soon to figure out a sustainable solution?">
-						Book Your Session Now 🎯
-					</a>
+
+					<a class="button" id="cta" href="https://wa.me/917676621928?text=Founder%20or%20founding%20team%20stuck%20with%20a%20recurring%2C%20messy%20startup%20problem%3F%20Let%E2%80%99s%20fix%20it.%0A%0AHi%20Team%20Better-Decide%2C%0AI%E2%80%99m%20%5BYour%20Name%5D%2C%20working%20on%20%5BStartup%20Name%5D%20in%20the%20%5BIndustry%5D%20space.%20We%E2%80%99re%20currently%20stuck%20on%3A%0A%0A-%20Problem%3A%20%5Bops%20chaos%2C%20plateauing%20growth%2C%20cashflow%20issues...%20%2F%20IDK!%20It%27s%20overwhelming!%5D%0A-%20Pain%3A%20%5BHow%20it%E2%80%99s%20affecting%20progress%20or%20morale%20%2F%20Need%20help%20articulating%20this%5D%0A-%20Tried%3A%20%5BQuick%20summary%20of%20what%20hasn%E2%80%99t%20worked%20%2F%20Need%20help%20articulating%20this%5D%0A%0ALooking%20for%20a%20founder-first%20solution%20that%E2%80%99s%20%5Bsolution%20attributes%20that%20work%20for%20you%20%E2%80%94fast%2C%20no-fluff%2C%20strategic%2C%20deep%2C%20insightful...%5D%2C%20not%20just%20generic%20advice.%0A%0AAre%20you%20a%20good%20fit%20for%20%5Bteam%20attributes%20--scrappy%2C%20fast-moving...%5D%20teams%20like%20ours%3F%20If%20yes%2C%20I%E2%80%99m%20free%20%5BYour%20Availability%2C%20e.g.%2C%20%22Tue%2FThu%202%E2%80%934PM%22%5D.%0A%0AThanks!" onclick="gtag_report_conversion();">Take the First Step 🧭</a>
 				</div>
 
 				<!-- Copyright -->
